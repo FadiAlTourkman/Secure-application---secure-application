@@ -1,0 +1,17 @@
+{
+  "name": "crypto-wallet-app",
+  "version": "1.0.0",
+  "description": "A secure crypto wallet application",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.3",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "sqlite3": "^5.1.7",
+    "winston": "^3.17.0"
+  }
+}
